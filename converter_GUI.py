@@ -6,7 +6,7 @@ from PIL import Image
 
 root = tk.Tk()   # Tkinter window initialized
 root.title('Converter')     # Title of the window
-canvas1 = tk.Canvas(root, width=300, height=250, bg='orange', relief='raised')
+canvas1 = tk.Canvas(root, width=300, height=250, bg='black', relief='raised')
 canvas1.pack()
 label1 = tk.Label(root, text='File Converter', bg='lightsteelblue2')   # giving a title to the screen
 label1.config(font=('helvetica', 20))
